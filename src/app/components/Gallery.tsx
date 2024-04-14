@@ -13,15 +13,15 @@ const Gallery: React.FC<GalleryProps> = ({ images }) => {
         <div className="py-2">
           <h1 className="text-center text-4xl"></h1>
         </div>
-        <div className="md:grid md:gap-6 md:grid-cols-2 lg:grid-cols-4 mb-12">
+        <div className="md:grid md:gap-6 md:grid-cols-2 lg:grid-cols-4">
           {images.map((x, i) => {
             return (
               <Fragment key={i}>
-                <div className="relative m-4">
+                <div className="relative m-1 p-3">
                   <Image
-                    width={400}
-                    height={400}
-                    className="max-h-80  w-full object-cover transition-transform duration-300 transform group-hover:scale-105"
+                    width={500}
+                    height={500}
+                    className="max-h-80 w-full object-cover transition-transform duration-300 transform group-hover:scale-105"
                     src={x}
                     alt="A car image"
                   />

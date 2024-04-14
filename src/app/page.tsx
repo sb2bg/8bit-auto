@@ -39,7 +39,7 @@ export default function Home() {
         href="/chat"
         className="p-4 text-white bg-[color:var(--color-secondary)] focus:border-transparent border-1 border-[color:rgba(0.6,0.6,0.6,0.6)] shadow-[inset_1px_1px_1px_1px_rgba(0.6,0.6,0.6,0.6)]"
       >
-        Chat with AutoBuddy
+        Chat with AutoBetty
       </a>
     </main>
   );

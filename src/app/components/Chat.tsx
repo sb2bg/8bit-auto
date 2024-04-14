@@ -27,7 +27,7 @@ const Chat: React.FC<ChatProps> = ({ messages, onSend, disabled }) => {
                         : "bg-[color:var(--color-tertiary)] text-black "
                     } p-4 shadow-[inset_1px_1px_1px_1px_rgba(0.6,0.6,0.6,0.6)]`}
                   >
-                    {i % 2 == 0 ? "AutoBuddy" : "You"} — {x}
+                    {i % 2 == 0 ? "AutoBetty" : "You"} — {x}
                   </div>
                 </div>
               );
