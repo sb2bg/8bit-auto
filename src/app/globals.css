@@ -24,3 +24,12 @@ body {
     text-wrap: balance;
   }
 }
+
+.splash-image {
+  height: 20vh;
+  width: 20vh;
+  position: absolute;
+  top: 22%;
+  left: 16.5%;
+  z-index: 1;
+}

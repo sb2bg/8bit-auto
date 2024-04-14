@@ -1,8 +1,9 @@
-import Chat from "./components/Chat";
+"use client";
+
 import Gallery from "./components/Gallery";
 import Image from "next/image";
 
-export default async function Home() {
+export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="p-2 z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
@@ -11,6 +12,16 @@ export default async function Home() {
           Find your dream retro vehicle
         </p>
       </div>
+
+      <Image
+        src="/splash.png"
+        width={100}
+        height={100}
+        objectPosition="center"
+        objectFit="cover"
+        alt="Splash logo"
+        className="splash-image"
+      />
 
       <Gallery
         images={[
@@ -24,15 +35,12 @@ export default async function Home() {
           "https://bringatrailer.com/wp-content/uploads/2023/05/1996_acura_integra_img_2348-4-21706.jpg?resize=470%2C318",
         ]}
       />
-
-      <Chat
-        messages={[
-          "Describe your dream vehicle",
-          "1977 V8 Ford Mustang",
-          "What color?",
-          "Red",
-        ]}
-      />
+      <a
+        href="/chat"
+        className="p-4 text-white bg-[color:var(--color-secondary)] focus:border-transparent border-1 border-[color:rgba(0.6,0.6,0.6,0.6)] shadow-[inset_1px_1px_1px_1px_rgba(0.6,0.6,0.6,0.6)]"
+      >
+        Chat with AutoBuddy
+      </a>
     </main>
   );
 }
