@@ -1,4 +1,4 @@
-#### 8Bit Auto
+# 8Bit Auto
 
 Discover your perfect vintage ride with 8Bit Auto! Our AI chatbot pairs your tastes with our vast database to find a classic car you'll love. Search 15,000+ cars in seconds to find the one for you. Whether you're a muscle car enthusiast or a fan of European classics, 8Bit Auto has the car for you.
 
