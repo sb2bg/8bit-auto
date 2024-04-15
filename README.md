@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+#### 8Bit Auto
 
-## Getting Started
+Discover your perfect vintage ride with 8Bit Auto! Our AI chatbot pairs your tastes with our vast database to find a classic car you'll love. Search 15,000+ cars in seconds to find the one for you. Whether you're a muscle car enthusiast or a fan of European classics, 8Bit Auto has the car for you.
 
-First, run the development server:
+#### Description
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+8Bit Auto is inspired by the charm and unique personality of vintage cars. Each car tells a story and appeals to its owner's individual style and preferences. Our goal is to harness the power of AI using vector database and natural language embeddings to bridge the gap between vintage car enthusiasts and their perfect automotive match, making the discovery process as enjoyable and fitting as driving the car itself.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+#### Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Interactive car gallery with intelligent search
+- Real-time chat functionality
+- Responsive web design
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+#### Getting Started
 
-## Learn More
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-To learn more about Next.js, take a look at the following resources:
+##### Prerequisites
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Node.js
+- Yarn
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+##### Installation
 
-## Deploy on Vercel
+1. Clone the repo:
+   ```bash
+   git clone https://yourrepository/8bit-auto-main.git
+   ```
+2. Install NPM packages:
+   ```bash
+   yarn install
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+##### Running the application
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Start the development server:
+   ```bash
+   yarn dev
+   ```
+2. Open `http://localhost:3000` in your browser to view the application.
+
+#### Backend Integration
+
+The application integrates with a FastAPI backend for handling embeddings and database interactions. For backend setup and instructions, visit the [8bit Auto Embeddings Repository](https://github.com/sb2bg/8bit-auto-embeddings).
+
+#### Usage
+
+Explore the application functionalities:
+
+- Navigate through the car gallery.
+- Use the chat feature to simulate real-time communication.
+
+#### Hackathon Team
+
+- Sullivan Bognar
+- Aatmodhee Goswami
+- Rex Craft
+- Robert Hall
+
+#### Awards
+
+- First Place winner at the RiverHacks 2024 hackathon. For more details, visit [RiverHacks](https://austincs.org/riverhacks).
+- Project showcased on [Devpost](https://devpost.com/software/8bit-auto?ref_content=user-portfolio&ref_feature=in_progress).
+
+#### License
+
+This project is licensed under the MIT License - see the `LICENSE` file for details.
+
+#### Acknowledgments
+
+- Inspiration from classic 8-bit designs
