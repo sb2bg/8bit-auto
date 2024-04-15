@@ -6,6 +6,19 @@ Discover your perfect vintage ride with 8Bit Auto! Our AI chatbot pairs your tas
 
 8Bit Auto is inspired by the charm and unique personality of vintage cars. Each car tells a story and appeals to its owner's individual style and preferences. Our goal is to harness the power of AI using vector database and natural language embeddings to bridge the gap between vintage car enthusiasts and their perfect automotive match, making the discovery process as enjoyable and fitting as driving the car itself.
 
+Project showcased on [Devpost](https://devpost.com/software/8bit-auto?ref_content=user-portfolio&ref_feature=in_progress).
+
+#### Hackathon Team
+
+- Sullivan Bognar
+- Aatmodhee Goswami
+- Rex Craft
+- Robert Hall
+
+#### Awards
+
+- First Place winner at the RiverHacks 2024 hackathon. For more details, visit [RiverHacks](https://austincs.org/riverhacks).
+
 #### Features
 
 - Interactive car gallery with intelligent search
@@ -50,18 +63,6 @@ Explore the application functionalities:
 
 - Navigate through the car gallery.
 - Use the chat feature to simulate real-time communication.
-
-#### Hackathon Team
-
-- Sullivan Bognar
-- Aatmodhee Goswami
-- Rex Craft
-- Robert Hall
-
-#### Awards
-
-- First Place winner at the RiverHacks 2024 hackathon. For more details, visit [RiverHacks](https://austincs.org/riverhacks).
-- Project showcased on [Devpost](https://devpost.com/software/8bit-auto?ref_content=user-portfolio&ref_feature=in_progress).
 
 #### License
 
