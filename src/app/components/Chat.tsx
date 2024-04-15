@@ -21,10 +21,10 @@ const Chat: React.FC<ChatProps> = ({ messages, onSend, disabled }) => {
               return (
                 <div className="relative mb-4" key={i}>
                   <div
-                    className={`max-h-80 w-full object-cover transition-transform duration-300 transform group-hover:scale-105 ${
+                    className={`max-h-80 w-full object-cover transition-transform duration-300 transform group-hover:scale-105 text-black ${
                       i % 2 == 0
-                        ? "bg-[color:var(--color-primary)] text-white "
-                        : "bg-[color:var(--color-tertiary)] text-black "
+                        ? "bg-[color:var(--color-primary)]"
+                        : "bg-[color:var(--color-tertiary)]"
                     } p-4 shadow-[inset_1px_1px_1px_1px_rgba(0.6,0.6,0.6,0.6)]`}
                   >
                     {i % 2 == 0 ? "AutoBetty" : "You"} — {x}
