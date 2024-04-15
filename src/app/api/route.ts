@@ -1,4 +1,3 @@
-import { ChromaClient, IncludeEnum } from "chromadb";
 import OpenAI from "openai";
 import { ChatCompletionMessageParam } from "openai/resources/index.mjs";
 
