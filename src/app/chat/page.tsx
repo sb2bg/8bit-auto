@@ -42,16 +42,14 @@ export default function ChatPage() {
     }).then((res) => res.json());
 
     if (response.message.includes("<done>")) {
-      console.log(response.message);
       const cars = await fetch(
-        `https://583e-34-228-42-74.ngrok-free.app/chat/${response.message.slice(
+        `http://127.0.0.1:8000/chat/${response.message.slice(
           response.message.indexOf("<done>") + 6
         )}`,
         {
           method: "GET",
           headers: {
             "Content-Type": "application/json",
-            "ngrok-skip-browser-warning": "true",
           },
         }
       ).then((res) => {
@@ -71,6 +69,12 @@ export default function ChatPage() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <button
+        className="absolute top-0 left-0 p-4 m-4 bg-[color:var(--color-tertiary)] text-[color:var(--color-secondary)]"
+        onClick={() => router.push("/")}
+      >
+        Go back
+      </button>
       <Chat messages={messages} onSend={sendToAutoBuddy} disabled={computing} />
       <div ref={messagesEndRef} />
     </main>
