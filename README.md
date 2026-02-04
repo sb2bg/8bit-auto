@@ -38,7 +38,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 1. Clone the repo:
    ```bash
-   git clone https://yourrepository/8bit-auto-main.git
+   git clone https://sb2bg/8bit-auto-main.git
    ```
 2. Install NPM packages:
    ```bash
